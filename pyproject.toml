@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "dev-changelog-ai"
+version = "0.1.0"
+description = "Automatically generates semantic release notes from git commit history using LLMs to create polished CHANGELOG.md files."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+keywords = ["python", "click", "gitpython", "openai", "jinja2"]
+dependencies = ["__future__", "git", "jinja2"]
+
+[project.urls]
+Homepage = "https://github.com/{GITHUB_USERNAME}/dev-changelog-ai"
