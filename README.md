@@ -1,6 +1,6 @@
 ![Python Version](https://img.shields.io/badge/python-3.9+-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
-![GitHub Stars](https://img.shields.io/github/stars/your-username/changelog-ai-generator?style=social)
+![GitHub Stars](https://img.shields.io/github/stars/dsoles-eth/dev-changelog-ai?style=social)
 
 # Changelog AI Generator
 
@@ -30,8 +30,8 @@ pip install dev-changelog-ai
 Alternatively, install from source:
 
 ```bash
-git clone https://github.com/your-username/changelog-ai-generator
-cd changelog-ai-generator
+git clone https://github.com/dsoles-eth/dev-changelog-ai
+cd dev-changelog-ai
 pip install -e .
 ```
 
